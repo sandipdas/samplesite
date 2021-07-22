@@ -1,0 +1,160 @@
+/*Caterogy Single Starts Here*/
+.cate-single-item {
+    padding: 40px 15px;
+    background: #ffffff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 400px) {
+    .cate-single-item {
+        padding: 40px;
+    }
+}
+
+.cate-single-item .title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: lighter;
+}
+
+.cate-single-item .title i {
+    margin-right: 10px;
+}
+
+.cate-single-item p {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+    .cate-single-item .title {
+        margin-bottom: 32px;
+    }
+
+    .cate-single-item p {
+        margin-bottom: 25px;
+    }
+}
+
+.usefull-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.usefull-links li {
+    padding: 7px 0;
+}
+
+.usefull-links li i {
+    margin-right: 10px;
+}
+
+.usefull-links li a {
+    color: #6b707f;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.usefull-links li a:hover {
+    color: #4c4cf1;
+}
+
+.ticket_categories li {
+    padding: 12px 0 10px;
+    position: relative;
+}
+
+.ticket_categories li:not(:last-child) {
+    border-bottom: 1px solid #e4e7e9;
+}
+
+.ticket_categories li img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.ticket_categories li a {
+    font-size: 16px;
+    color: #1d2746;
+}
+
+.ticket_categories li i {
+    margin-right: 10px;
+}
+
+.ticket_categories li a:hover {
+    color: #4c4cf1;
+}
+
+.ticket_categories li .count {
+    position: absolute;
+    right: 0;
+    background: #ebedf0;
+    padding: 4px 7px 2px;
+    border-radius: 10px;
+    color: #838793;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.ticket_categories li .count.count-fill {
+    right: 35px;
+    background: #0abe76;
+    color: #fff;
+}
+
+
+
+.forum_sidebar .widget .c_head {
+    font-weight: lighter;
+}
+
+
+
+
+.doc_banner_area {
+    padding: 50px 0 50px;
+    margin-bottom: 0px;
+}
+
+.body_wrapper {
+    background: #f9fafb;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px 0 0 0;
+    z-index: 9;
+}
+
+.sticky .header_search_keyword {
+    display: none;
+}
+
+.sticky .header_search_form {
+    margin-top: 0;
+}
+
+.sticky+section {
+    margin-top: 230px;
+}
+
+#myHeader {
+    /* padding-top: 50px */
+    /* overflow: hidden; */
+    transition: all 0.3s ease;
+}
+
+#myHeader+section,
+#myHeader .header_search_form {
+    /*     transition:all 0.3s ease; */
+}
+
+.sec_pad {
+    padding: 50px 0;
+}

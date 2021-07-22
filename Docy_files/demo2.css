@@ -1,0 +1,189 @@
+/*=============== doc_features_area_one css ===========*/
+.doc_features_area_one {
+    position: relative;
+    z-index: 1;
+    padding: 100px 0 100px;
+}
+
+.doc_features_area_one:before {
+    content: "";
+    width: 100%;
+    height: 460px;
+    top: 0;
+    left: 0;
+    background: url("../img/home_one/dow_bg.png") no-repeat scroll center top / cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.doc_features_item_one {
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(4, 73, 89, 0.05);
+    padding: 30px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.doc_features_item_one h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    transition: color 0.2s linear;
+}
+
+.doc_features_item_one h3:hover {
+    color: #10b3d6;
+}
+
+.doc_features_item_one p {
+    line-height: 24px;
+}
+
+.doc_features_item_one img {
+    margin-right: 30px;
+}
+
+.doc_features_item_one .learn_btn {
+    font-size: 14px;
+}
+
+.doc_features_item_one .learn_btn i {
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+.doc_features_item_one:hover {
+    box-shadow: 0 30px 40px 0 rgba(4, 73, 89, 0.08);
+}
+
+.learn_btn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2746;
+    padding-top: 5px;
+    display: inline-block;
+    transition: color 0.2s linear;
+}
+
+.learn_btn i {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 6px;
+    transition: all 0.2s linear, color 0s linear;
+}
+
+.learn_btn.c_blue {
+    color: #10b3d6;
+}
+
+.learn_btn:hover {
+    color: #10b3d6;
+}
+
+.learn_btn:hover i {
+    transform: translateX(8px);
+}
+
+.learn_btn:hover.c_blue {
+    color: #1d2746;
+}
+
+/*=============== doc_features_area_one css ===========*/
+
+
+/*============== Start doc_tag_area css =============*/
+.doc_tag_area {
+    padding: 0 0 110px;
+}
+
+
+
+.doc_tag {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    margin-bottom: 75px;
+}
+
+.doc_tag .nav-item {
+    margin-bottom: 0;
+}
+
+.doc_tag .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: #10b3d6;
+    border: 1px solid #79ccde;
+    border-radius: 4px;
+    background-color: rgba(16, 179, 214, 0.031);
+    padding: 0 20px;
+    line-height: 28px;
+    margin: 0 5px;
+    transition: all 0.4s linear;
+}
+
+.doc_tag .nav-item .nav-link:hover,
+.doc_tag .nav-item .nav-link.active {
+    background-color: #10b3d6;
+    border-color: #10b3d6;
+    box-shadow: 0 10px 20px 0 rgba(12, 118, 142, 0.2);
+    color: #fff;
+}
+
+.doc_tag_title {
+    margin-bottom: 45px;
+}
+
+.doc_tag_title h4 {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.doc_tag_title .line {
+    height: 2px;
+    width: 100%;
+    background: #e1e9eb;
+    display: block;
+}
+
+.doc_tab_pane .row {
+    margin-bottom: -85px;
+}
+
+.doc_tag_item {
+    margin-bottom: 85px;
+}
+
+.tag_list {
+    margin-bottom: 32px;
+}
+
+.tag_list li {
+    margin-top: 15px;
+}
+
+.tag_list li a {
+    font-size: 16px;
+    color: #6b707f;
+    line-height: 22px;
+    transition: color 0.2s linear;
+    display: flex;
+}
+
+.tag_list li a i {
+    margin-right: 15px;
+}
+
+.tag_list li a:hover {
+    color: #10b3d6;
+}
+
+.doc_banner_area {
+  padding: 150px 0 50px;
+  margin-bottom: -50px;
+}

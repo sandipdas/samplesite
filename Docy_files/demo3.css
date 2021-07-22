@@ -1,0 +1,47 @@
+.doc_banner_area {
+    padding: 100px 0 50px;
+    margin-bottom: -70px;
+}
+
+.recommended_item {
+
+    box-shadow: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+
+}
+
+.carousel-control-prev-icon:hover {
+    filter: drop-shadow(-10px 0px 0px black);
+}
+
+.carousel-control-next-icon:hover {
+    filter: drop-shadow(10px 0px 0px black);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./left-arrow.png");
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("./right-arrow.png");
+}
+
+.carousel-control-prev {
+    left: -40px
+}
+
+.carousel-control-next {
+    right: -40px
+}
+.recommended_item{
+    margin-bottom:0;
+}
