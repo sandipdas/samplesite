@@ -1,0 +1,14 @@
+.create-token{
+   margin-left: 25px !important;
+   border-radius: 2px !important;
+}
+.search-button{
+    height: 1rem;
+}
+.note{
+    font-size: 0.8rem;
+}
+.bg-naviblue {
+    background-color: #052d51;
+    border-color: #052d51;
+}
